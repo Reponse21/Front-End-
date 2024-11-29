@@ -1,0 +1,96 @@
+/* Contact Section Styles */
+.contact {
+    padding: 5rem 2rem;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-container h2 {
+    font-size: 2.5rem;
+    color: #d33cf2;
+    margin-bottom: 1.5rem;
+}
+
+.contact-container p {
+    font-size: 1.125rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 1.125rem;
+    color: #ddd;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-form button {
+    padding: 1rem 2rem;
+    background-color: #d33cf2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.125rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #9e29b7;
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #131313;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container p {
+    font-size: 1.125rem;
+    color: #ddd;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-link {
+    font-size: 1.125rem;
+    color: #d33cf2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #9e29b7;
+}
